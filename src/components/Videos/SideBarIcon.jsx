@@ -1,11 +1,11 @@
 import React from "react"
 import './styles/VideoSidebar.css'
 
-function VideoSidebarIcon(props) {
+function VideoSidebarIcon({iconComponent, value, onClick}) {
   return (
     <div className="videoSidebar__button">
-      {props.iconComponent}
-      <p>{props.value}</p>
+      {iconComponent}
+      <p>{value}</p>
     </div>
   )
 }

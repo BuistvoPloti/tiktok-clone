@@ -21,7 +21,7 @@ function VideoFooter({channel, description, song}) {
           </Ticker>
         </div>
       </div>
-      <img className="videoFooter__record" src="https://image.flaticon.com/icons/svg/72/72216.svg" alt=""/>
+      <img className="videoFooter__record" src="https://image.flaticon.com/icons/svg/3046/3046121.svg" alt=""/>
 
     </div>
   )
