@@ -9,3 +9,21 @@
     padding: 15px;
     text-align: center;
 }
+
+.videoSidebar__record {
+    animation: spinTheRecord infinite 5s linear;
+    height: 45px;
+    filter: invert(1);
+    position: absolute;
+    right: 5px;
+    bottom:-58px;
+}
+
+@keyframes spinTheRecord {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}

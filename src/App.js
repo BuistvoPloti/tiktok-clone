@@ -23,7 +23,7 @@ function App() {
               channel={channel}
               song={song}
               likes={likes}
-              messages={comments}
+              comments={comments}
               description={description}
               shares={shares}
             />
